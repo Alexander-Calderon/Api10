@@ -1,0 +1,4 @@
+
+
+dotnet ef dbcontext scaffold "server=localhost;user=root;password=123456;database=PDBFirst" Pomelo.EntityFrameworkCore.MySql -s API -p Infrastructure --context DbFirstContext --context-dir Data --output-dir Entities
+
